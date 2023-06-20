@@ -11,6 +11,10 @@ body {
    font-family: 'Inter', sans-serif;
 }
 
+h2 {
+   margin-top: 0;
+}
+
 .container {
    width: 85%;
    max-width: 1200px;
@@ -116,6 +120,11 @@ body {
    .section__one .row {
       flex-direction: row;
       gap: 2em;
+   }
+
+   .section__three,
+   .section__two {
+      padding: 4em 0;
    }
 
    .section__two .container,
